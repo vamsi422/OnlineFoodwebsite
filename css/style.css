@@ -1,0 +1,109 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.bg-img {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+/*Navbar and Image*/
+#navbar {
+  position: sticky;
+  background-color: burlywood;
+  display: flex;
+  opacity: 0.85;
+  height: 5rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+ul > li > a:hover {
+  margin: 1rem;
+  padding: 1rem;
+  color: yellow;
+  background-color: black;
+  border-radius: 3.1rem;
+}
+ul > li > a {
+  font-family: Copperplate, Papyrus, fantasy;
+  text-decoration: none;
+  display: block;
+  margin: 2rem;
+  color: black;
+}
+/* Logo*/
+#logo {
+  background-color: white;
+  padding-top: 0.5rem;
+  margin: 0.5rem;
+  border: 0.5rem double black;
+  border-radius: 7rem;
+}
+
+/*home*/
+
+#home {
+  color: black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  height: 70vh;
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+}
+#home > h2 {
+  margin-left: 35vw;
+  padding: auto;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+#home > p {
+  margin: 1.5rem;
+}
+.box {
+  background-color: aliceblue;
+  opacity: 0.85;
+  margin: 0.75rem;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+button {
+  padding: 2px;
+  border-radius: 5px;
+  border: 3px solid black;
+  display: inline;
+  margin: auto;
+}
+button:hover {
+  background-color: red;
+}
+#sub > div > h3 {
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.box > img {
+  display: block;
+  margin: auto;
+  height: 4rem;
+  width: 4rem;
+}
+#clints {
+  text-align: center;
+}
+#clints > img {
+  margin: 0.25rem;
+  height: 2rem;
+  width: 2rem;
+}
