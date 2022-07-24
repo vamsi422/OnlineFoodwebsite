@@ -5,21 +5,18 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
 }
-.bg-img {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: -1;
-}
+
 /*Navbar and Image*/
 #navbar {
-  position: sticky;
-  background-color: burlywood;
   display: flex;
-  opacity: 0.85;
-  height: 5rem;
+  position: sticky;
+  opacity: 0.9;
+  background-color: burlywood;
+}
+#head {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  height: max-content;
 }
 
 ul {
@@ -55,40 +52,40 @@ ul > li > a {
 /*home*/
 
 #home {
-  color: black;
-  margin: 0.5rem;
   padding: 0.5rem;
-  height: 70vh;
-  border: 0.25rem solid black;
-  border-radius: 0.5rem;
+  height: auto;
 }
-#home > h2 {
+h2 {
   margin-left: 35vw;
   padding: auto;
   font-family: Copperplate, Papyrus, fantasy;
 }
-#home > p {
+p {
   margin: 1.5rem;
 }
 .box {
-  background-color: aliceblue;
-  opacity: 0.85;
+  background-color: rgb(236, 212, 181);
+  opacity: 0.9;
+  width: 30%;
   margin: 0.75rem;
   border: 3px solid black;
   border-radius: 0.5rem;
   padding: 0.75rem;
 }
 button {
-  padding: 2px;
-  border-radius: 5px;
+  padding: 3px;
+  border-radius: 10px;
   border: 3px solid black;
-  display: inline;
+  display: block;
   margin: auto;
 }
 button:hover {
   background-color: red;
 }
-#sub > div > h3 {
+#sub {
+  display: flex;
+}
+h3 {
   font-family: Copperplate, Papyrus, fantasy;
   text-align: center;
   margin-bottom: 5px;
@@ -104,6 +101,32 @@ button:hover {
 }
 #clints > img {
   margin: 0.25rem;
+  margin-bottom: 1rem;
   height: 2rem;
   width: 2rem;
+}
+/*contactUs*/
+#footer {
+  display: block;
+  margin: auto;
+  width: 99vw;
+  height: auto;
+  background-color: white;
+  opacity: 0.85;
+  background-image: url(../img/contact.jpg);
+  background-size: contain;
+}
+form > input,
+textarea {
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+form {
+  margin-left: 20%;
+}
+h6 {
+  margin: 00.25rem;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
 }
